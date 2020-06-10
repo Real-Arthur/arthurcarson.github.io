@@ -1,11 +1,12 @@
 body {
-  text-align: center
+  text-align: center;
 }
 
 .dates {
-  font-weight: bold
+  font-weight: bold;
 }
 
-#moto:hover {
-  content: url('https://dta0yqvfnusiq.cloudfront.net/moto-i/2015/12/logo.png')
+ul {
+  display: block;
+  list-style-type: none;
 }
