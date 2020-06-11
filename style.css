@@ -1,5 +1,5 @@
 html {
-  background-color:aliceblue;
+  background-color: cornsilk;
 }
 
 .name {
@@ -8,10 +8,14 @@ html {
  padding-right: 0%;
  font-size: 300%;
  border-bottom: none;
+ font-family:Helvetica;
+ 
 }
 
 body {
   text-align: center;
+  font-size: 120%;
+  font-family: Arial;
 }
 
 div {
@@ -44,10 +48,24 @@ div.contacts:hover {
 img {
   border-radius: 50%;
   position: fixed;
+  bottom: 0;
   right: 0;
   margin: auto;
+  opacity: 0.75;
+}
+
+ div.place-name {
+  font-weight: bold;
+  font-size: 115%;
+  border: none;
+  padding-top: 5%;
 }
 
 ul {
   list-style-type:none;
+}
+
+p {
+  letter-spacing: 2px;
+  word-spacing: 1px;
 }
