@@ -4,7 +4,7 @@ body {
 
 
 img {
-  position: sticky;
+  position: fixed;
   
   max-height: 100px;
   max-width: auto; 
@@ -15,7 +15,7 @@ img {
 }
 
 #name {
-  position: sticky;
+  position: fixed;
   display: inline;
   top: 0;
   left: 0;
